@@ -5,3 +5,12 @@ header {
     font-weight: bold;
     padding: 33%;
 }
+
+p {
+    text-align: left;
+    font-size: 0,5em;
+}
+
+input {
+    width: 100%;
+}

@@ -14,6 +14,8 @@ console.log("test")
 
 function checkAirQuality() {
     let quality = document.getElementById("airQuality").value
+    document.getElementById("label").innerHTML = "AQI: " + quality
+    
     if (quality <= 50) {
         document.getElementById("concern").innerHTML="Level of health concern: Good" 
         document.getElementById("effect").innerHTML="Level of health concern: little or no risk"
